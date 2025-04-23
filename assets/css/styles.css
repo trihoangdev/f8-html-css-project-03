@@ -413,3 +413,57 @@ a {
 .feature__btn {
   margin-top: 38px;
 }
+
+/* Member */
+.members {
+  margin-top: 170px;
+  margin-bottom: 85px;
+}
+
+.member__body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.member__btn {
+  margin-top: 38px;
+}
+
+.member-list {
+  margin-top: 70px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 34px;
+}
+
+.member__img-wrap {
+  overflow: hidden;
+}
+
+.member-item:hover .member__img {
+  transform: scale(1.1);
+}
+
+.member__img {
+  width: 262px;
+  height: 290px;
+  object-fit: cover;
+}
+
+.member__title {
+  color: var(--primary-color);
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.75;
+}
+
+.member__desc {
+  color: var(--desc-color);
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.86;
+}
