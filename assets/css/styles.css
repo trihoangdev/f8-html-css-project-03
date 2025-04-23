@@ -4,6 +4,8 @@
 
 html {
   font-size: 62.5%;
+  --primary-color: #10375c;
+  --desc-color: #575f66;
 }
 
 body {
@@ -49,14 +51,14 @@ a {
 
 .section__desc {
   margin-top: 18px;
-  color: #575f66;
+  color: var(--desc-color);
   font-size: 1.8rem;
   font-weight: 300;
   line-height: 1.67;
 }
 
 .section__heading {
-  color: #10375c;
+  color: var(--primary-color);
   text-align: center;
   font-size: 5rem;
   font-weight: 600;
@@ -67,7 +69,7 @@ a {
 /* Header */
 .header {
   padding-top: 30px;
-  background: #10375c;
+  background: var(--primary-color);
   min-height: 100vh;
 }
 
@@ -285,7 +287,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #10375c;
+  color: var(--primary-color);
   width: 60px;
   height: 60px;
   border-radius: 50%;
@@ -303,7 +305,7 @@ a {
 }
 
 .service__title {
-  color: #10375c;
+  color: var(--primary-color);
   font-size: 1.8rem;
   font-weight: 600;
 }
