@@ -373,3 +373,43 @@ a {
   font-weight: 400;
   margin-top: 18px;
 }
+
+/* Feature */
+.feature {
+  margin-top: 170px;
+  margin-bottom: 85px;
+}
+
+.feature__body {
+  display: flex;
+  align-items: center;
+  column-gap: 130px;
+}
+
+.feature__media {
+  width: 49%;
+}
+
+.feature__images {
+  position: relative;
+  padding: 0 58px 121px 0;
+}
+
+.feature__img {
+  width: 512px;
+  height: 370px;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.feature__img:nth-child(2) {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 332px;
+  height: 370px;
+}
+
+.feature__btn {
+  margin-top: 38px;
+}
