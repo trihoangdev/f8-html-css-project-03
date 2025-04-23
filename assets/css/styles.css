@@ -47,12 +47,21 @@ a {
   cursor: pointer;
 }
 
-.desc {
+.section__desc {
   margin-top: 18px;
   color: #575f66;
   font-size: 1.8rem;
   font-weight: 300;
   line-height: 1.67;
+}
+
+.section__heading {
+  color: #10375c;
+  text-align: center;
+  font-size: 5rem;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -1px;
 }
 
 /* Header */
@@ -223,4 +232,89 @@ a {
 .hero__img:nth-child(2) {
   width: 210px;
   height: 410px;
+}
+
+/* Service */
+.service {
+  margin: 85px 0;
+  padding: 85px 0;
+}
+
+.service__header {
+  text-align: center;
+}
+
+.service__header-desc {
+  display: inline-block;
+  width: 468px;
+}
+
+.service__body {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.service__media {
+  width: 49%;
+}
+
+.service__img {
+  width: 570px;
+  height: 570px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.service__info {
+  align-items: center;
+}
+
+.service__item {
+  display: flex;
+  padding: 22px;
+}
+
+.service__item:hover {
+  border-radius: 10px;
+  box-shadow: 0px 14px 28px 0px rgba(0, 0, 0, 0.05);
+}
+
+.service__item-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #10375c;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #eff6fd;
+  transition: 0.25s;
+}
+
+.service__item:hover .service__item-icon {
+  color: #fff;
+  background-color: #2e80ce;
+}
+
+.service__item-info {
+  margin-left: 19px;
+}
+
+.service__title {
+  color: #10375c;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.service__desc {
+  margin-top: 8px;
+  width: 351px;
+  font-size: 1.6rem;
+  line-height: 1.75;
+}
+
+.service__btn {
+  margin-top: 55px;
 }
