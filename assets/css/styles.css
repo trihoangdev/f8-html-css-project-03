@@ -66,6 +66,29 @@ a {
   letter-spacing: -1px;
 }
 
+.control__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  outline: none;
+  border: 1px solid #575f66;
+  color: #10375c;
+  background-color: #fff;
+  transition: 0.25s;
+}
+
+.control__btn:hover {
+  background: #2e80ce;
+  color: #fff;
+}
+
+.control-next-icon {
+  rotate: 180deg;
+}
+
 /* Header */
 .header {
   padding-top: 30px;
@@ -447,8 +470,8 @@ a {
 }
 
 .member__img {
-  width: 262px;
-  height: 290px;
+  width: 270px;
+  height: 318px;
   object-fit: cover;
 }
 
@@ -466,6 +489,14 @@ a {
   font-size: 1.4rem;
   font-weight: 300;
   line-height: 1.86;
+}
+
+.member__nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 38px;
+  gap: 18px;
 }
 
 /* Install */
