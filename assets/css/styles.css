@@ -756,6 +756,10 @@ a {
   line-height: 1.86;
 }
 
+.footer__link:hover {
+  text-decoration: underline;
+}
+
 .footer ul li:first-child {
   margin-top: 10px;
 }
