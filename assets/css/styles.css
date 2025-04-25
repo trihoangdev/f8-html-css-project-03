@@ -29,6 +29,14 @@ a {
   text-decoration: none;
 }
 
+.logo-link {
+  display: inline-block;
+}
+
+.logo-link:hover {
+  cursor: pointer;
+}
+
 .btn {
   --height: 60px;
   padding: 0px 20px;
