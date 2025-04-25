@@ -6,6 +6,7 @@ html {
   font-size: 62.5%;
   --primary-color: #10375c;
   --desc-color: #575f66;
+  scroll-behavior: smooth;
 }
 
 body {
