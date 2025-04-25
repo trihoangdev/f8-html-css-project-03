@@ -98,9 +98,17 @@ a {
 
 /* Header */
 .header {
-  padding-top: 30px;
   background: var(--primary-color);
   min-height: 100vh;
+}
+
+.header-top__wrap {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  position: sticky;
+  top: -20px;
+  z-index: 999;
+  background: var(--primary-color);
 }
 
 .header-top {
@@ -208,7 +216,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 76px;
+  padding-top: 66px;
 }
 
 .hero__content {
