@@ -506,6 +506,12 @@ a {
   line-height: 1.86;
 }
 
+.control-member__buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .control__member {
   justify-content: center;
   align-items: center;
